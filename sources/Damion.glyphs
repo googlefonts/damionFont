@@ -88,11 +88,11 @@ fontMaster = (
 customParameters = (
 {
 name = typoAscender;
-value = 1535;
+value = 2068;
 },
 {
 name = typoDescender;
-value = -593;
+value = -746;
 },
 {
 name = typoLineGap;
@@ -100,19 +100,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1535;
+value = 2068;
 },
 {
 name = winDescent;
-value = 593;
+value = 746;
 },
 {
-name = underlineThickness;
-value = 102;
+name = hheaAscender;
+value = 2068;
 },
 {
-name = underlinePosition;
-value = -154;
+name = hheaDescender;
+value = -746;
 },
 {
 name = strikeoutPosition;
@@ -121,50 +121,6 @@ value = 512;
 {
 name = strikeoutSize;
 value = 102;
-},
-{
-name = subscriptXOffset;
-value = 0;
-},
-{
-name = subscriptXSize;
-value = 1434;
-},
-{
-name = subscriptYOffset;
-value = 287;
-},
-{
-name = subscriptYSize;
-value = 1331;
-},
-{
-name = superscriptXOffset;
-value = 0;
-},
-{
-name = superscriptXSize;
-value = 1434;
-},
-{
-name = superscriptYOffset;
-value = 977;
-},
-{
-name = superscriptYSize;
-value = 1331;
-},
-{
-name = hheaAscender;
-value = 1535;
-},
-{
-name = hheaDescender;
-value = -593;
-},
-{
-name = hheaLineGap;
-value = 0;
 }
 );
 guides = (
@@ -10522,29 +10478,32 @@ width = 480;
 unicode = (32,160);
 },
 {
-glyphname = CR;
-layers = (
-{
-layerId = "DC66AB0F-19FD-4F06-8C39-5D32AA939720";
-width = 480;
-}
-);
-},
-{
-glyphname = NULL;
-layers = (
-{
-layerId = "DC66AB0F-19FD-4F06-8C39-5D32AA939720";
-width = 0;
-}
-);
-},
-{
 glyphname = .notdef;
+lastChange = "2024-04-18 12:53:33 +0000";
 layers = (
 {
 layerId = "DC66AB0F-19FD-4F06-8C39-5D32AA939720";
-width = 480;
+shapes = (
+{
+closed = 1;
+nodes = (
+(1131,-205,l),
+(1742,1573,l),
+(878,1573,l),
+(275,-205,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(1001,1437,l),
+(1537,1437,l),
+(1016,-69,l),
+(472,-69,l)
+);
+}
+);
+width = 1452;
 }
 );
 },
@@ -16168,5 +16127,5 @@ tH = 141;
 };
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 100;
 }
